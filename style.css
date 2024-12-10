@@ -1,0 +1,96 @@
+body {
+	font-size: 20px;
+}
+
+h1 {
+	text-align: center;
+	font-family: arial;
+}
+
+form {
+
+}
+input{
+	font-size: 16px;
+	padding:7px;
+	margin:4px;
+	border-radius: 5px;
+	border: none;
+}
+
+select {
+	font-size: 16px;
+	padding:7px;
+	margin:4px;
+	border-radius: 5px;
+	border: none;
+}
+
+button {
+	font-size: 16px;
+	padding: 5px;
+	border-radius: 5px;
+	border: solid 1px;
+	cursor: pointer;
+}
+.container {
+	background-color: lightgray;
+	margin-top: 1%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding:2%;
+	padding-left: 4%;
+	border-radius: 24px;
+}
+
+.search-bar {
+	text-align: right;
+	margin-right: 5%;
+}
+
+.searchbox {
+	border:solid 1px;
+}
+
+.editable {
+	text-align: right;
+}
+
+.green {
+	background-color: seagreen;
+}
+.green:hover {
+	background-color: green;
+	transition-duration: .3s;
+}
+.yellow {
+	background-color: orange;
+}
+.yellow:hover {
+	background-color: darkorange;
+	transition-duration: .3s;
+}
+.red {
+	background-color: indianred;
+}
+.red:hover {
+	background-color: darkred;
+	transition-duration: .3s;
+}
+
+.fullName {
+	width:30%;
+}
+
+#schoolName {
+	width:35%;
+}
+
+#dept {
+	width:20%;
+}
+
+#posRole {
+	width:20%;
+}
+

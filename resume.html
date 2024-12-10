@@ -1,0 +1,123 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel ="stylesheet" href ="style.css">
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+
+	<body>
+		<h1>Employee 201</h2>
+		
+		<div class ="search-bar">
+			<button class = "green"><i class="fa-solid fa-plus"></i></button>
+			<input type="text" name="Search" placeholder="Search" class = "searchbox">
+			<button><i class="fa-solid fa-magnifying-glass"></i></button>
+		</div>
+
+		<div class = "container">
+			<div class ="editable">
+				<button class ="yellow"><i class="fa-solid fa-pen"></i></button>
+				<button class ="red"><i class="fa-solid fa-trash"></i></button>
+			</div>
+			<form>
+			<div class = "form-group">
+				
+				<label>Employee</label>
+				<div>
+					<input type= "text" class ="fullName" id = "firstName" placeholder="First Name">
+					<input type= "text" class ="fullName" id = "midName" placeholder="Middle Name">
+					<input type= "text" class ="fullName" id = "lasttName" placeholder="Last Name">
+				</div>
+				
+				<label>Date Hired</label>
+				<div>
+					<input type= "Date">
+				</div>
+				
+				<label>Department</label>
+				<div>
+					<input type= "text" id ="dept" placeholder="Department Name">
+				</div>
+				<label>Position</label>
+				
+				<div>
+					<input type= "text" id = "posRole" placeholder="Position">
+				</div>
+				
+				<label>Status</label>
+				<div>
+					<input type= "radio" name = "status" value="active">
+					<label>Active</label>
+					<input type= "radio" name = "status" value="inactive">
+					<label>Inactive</label>
+				</div>
+			</div>
+		</form>
+		<hr>
+		<form>
+			<div class = "form-group">
+				<label>Educational Background</label>
+				<div>
+					
+					<label>School</label>
+					<input type= "text" id = "schoolName" placeholder="School Name">
+					<select name ="courses" id="courses">
+						<option value ="elem">Elementary Diploma</option>
+						<option value ="jhs">Junior High School Diploma</option>
+						<option value ="shs">Senior High School Diploma</option>
+						<option value ="undergraduate">College Undergraduate</option>
+						<option value ="college">College Degree</option>
+						<option value ="masters">Master's Degree</option>
+						<option value ="phd">Doctorate</option>
+					</select>
+
+					<select name ="school-type" id="school-type">
+						<option value ="school-public"> Public</option>
+						<option value ="school-private">Private</option>
+					</select>
+					
+				</div>
+
+				<div>
+					<label>Year Graduated</label>
+					<input type= "month" id = "min-year">
+					<label> to </label>
+					<input type= "month" id = "max-year">
+				</div>
+			</div>
+
+		</form>
+		<hr>
+		<form>
+			<div class = "form-group">
+				<label>Work Experience</label>
+				<div>
+
+				<div>
+					<label>Inclusive Dates</label>
+					<input type= "month" id = "min-year">
+					<label> to </label>
+					<input type= "month" id = "max-year">
+				
+				<div><label>Company Name</label>
+				
+					<input type= "text" placeholder="Company Name">
+				</div>
+				<div>
+				<label>Position</label>
+					<input type= "text" placeholder="Enter Position">
+				</div>
+				<div>
+					<label>Salary</label>
+					<input type= "text" placeholder="Enter Amount">
+				</div>
+			</div>
+			<div class = "editable">
+				<button class = "green"><i class="fa-solid fa-floppy-disk"></i></button>
+			</div>
+		</form>
+	</div>
+	</body>
+</html>
